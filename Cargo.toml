@@ -1,0 +1,15 @@
+[package]
+name = "webserver"
+version = "0.1.0"
+authors = ["Anatolijus <anatolijus@gmx.de>"]
+edition = "2018"
+description = "Simple webserver"
+license = "MIT"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
